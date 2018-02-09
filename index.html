@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intuit Accounts - Sign Up</title>
+  <meta name = "description" content="">
+  <meta charset="utf-8">
+  <meta name="robots" content="index,follow,noodp">
+  <meta name="slurp" content="noydir">
+  <meta name="viewport" content="width=device-width">
+  <meta name="ius-locale" content="en-US">
+  <meta name="ius-bu" content="cto">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+  <section>
+    <div class="nav-wrapper" style="">
+      <div class="nav-container">
+        <div class="nav-column">
+          <div>Already have an Intuit account?</div>
+          <a id="nav-recovery-link" href="#">I forgot my User ID or Password</a>
+        </div>
+        <div class="nav-column">
+          <button id="sign-in-button" class="btn-submit">
+            <i class="material-icons" style="font-size:1.125em">lock</i>
+            Sign In
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <header class="main-header">
+      <div class="logo-container">
+        <a id="header-brand" class="ui-logo" href="#" aria-label="intuit"><img src="images/intuit-logo.png" alt="intuit-logo"></a>
+      </div>
+    </header>
+
+    <!-- Widget Specific -->
+    <section class="main-container">
+      <div class="widget-container"> 
+        <div class="ui-hide" id="sign-up-widget"></div>
+        <div class="sign-up-wrapper">
+          <div class="wrapper-cta">
+            <header class="header-container">
+              <div class="ecosystem-logo">
+                <header id="logo-header" class="cta-widget-header">
+                  <div id="sign-up-container">
+                    <a id="turbotax-qb-mint" href="#"><img src="images/background.png" alt="turbotax"></a>
+                  </div>
+                </header>
+              </div>
+              <hr class="conditional-hr">
+              <span class="cta-header">
+                One Account.
+                <br>
+                Everything Intuit.
+              </span>
+              <span class="cta-sub-header">
+                <span class="cta-italic"></span>
+                <a id="italic-link" class="cta-italic"></a>
+                <span id="sub-header-prompt">
+                  <div>
+                    Create an account for all Intuit's products <br> including
+                    <span id="header-product-name">Mint.</span>
+                    <a class="info-link" href="#" target="_blank">Learn more</a>
+                  </div>
+                </span>
+                <span id="sign-up-sub-header"></span>
+              </span>
+            </header>
+          
+            <form id="sign-up-form" action="#" method="post" autocomplete="off" novalidate="">
+              <div id="auth-buttons"></div>
+              <fieldset id="fieldset-email">
+                <label class="cta-label cta-email">Email address</label>
+                <div class="input-container">
+                  <input id="input-email" class="text-input" type="email">
+                </div>
+              </fieldset>
+              <fieldset id="fieldset-mobile">
+                <label class="cta-label cta-mobile">Phone
+                  <span class="optional">(recommended)</span>
+                </label>
+                <div class="tel-input">
+                  <input id="cta-mobile" class="text-input" type="tel">
+                </div>
+              </fieldset>
+              <fieldset id="fieldset-password">
+                <label class=" cta-label cta-password">Password</label>
+                <div class="password-input">
+                  <input id="cta-password" class="text-input" type="password">
+                </div>
+              </fieldset>
+              <div id="sign-up-actions" class="bottom-spacer">
+                <button id="btn-create" class="btn-submit" type="submit" name="SignUp"><i class="material-icons" style="font-size:1.125em">lock</i>
+                Create Account</button>
+              </div>
+            </form> 
+            <br>
+            <br>
+            <footer class="footer-container">
+              <span id="use-terms" class="cta-italic">
+                By clicking Create Account, your agree to our 
+                <br>
+                <a id="link-use-terms" href="#" target="_blank">License Agreement</a>
+                <span id="consent">and</span>
+                <a id="statement-link" href="#" target="_blank">Privacy Statement</a>
+              </span>
+            </footer>
+          </div>
+          <br>
+          <br>
+          <br>
+          <footer class="main-footer">
+            <div class="content-container footer-container">
+              <div id="footer-logo" class="footer-row">
+                <div class="cta-ui-products">
+                  <div class="footer-intuit-logo">
+                    <a id="footer-logo-intuit" class="intuit-logo-container" href="#" target="_blank" aria-label="intuit"><img src="images/intuit-logo-small.png"</a>
+                  </div>
+                </div>
+              </div>
+              <div id="sign-up-footer-links" class="footer-row">
+                <span class="cta-lps">
+                  <a id="cta-legal" href="#" target="_blank">Legal</a>
+                  <a id="cta-privacy" href="#" target="_blank">Privacy</a>
+                  <a id="cta-security" href="#" target="_blank">Security</a>
+                </span>
+              </div>
+              <div id="sign-up-copyright" class="footer-row footer-copyright">
+                <span id="copy-container">
+                  <span id="copy-message">&copy;
+                     2018 Intuit, Inc. All rights reserved. Intuit, Quickbooks, QB, TurboTax, Proconnect and Mint are registered trademarks of Intuit Inc.
+                  </span>
+                  <br>
+                  Terms and conditions, features, support, pricing, and service options subject to change without notice.
+                </span>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>  
+    </section>
+  </section>
+</body>
+</html>
